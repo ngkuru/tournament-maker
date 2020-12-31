@@ -1,0 +1,35 @@
+th {
+    padding: 2px 5px 2px 5px;
+}
+
+#table {
+    margin: 0px 0px 10px 0px;
+}
+
+.round {
+    margin: 10px 0px 10px 0px;
+}
+
+.team-name {
+    width: 100px;
+}
+
+.left-aligned {
+    text-align: left;
+}
+
+.right-aligned {
+    text-align: right;
+}
+
+input[type="number"] {
+    width: 50px;
+}
+
+.score-button {
+    margin: 0px 5px 0px 5px;
+}
+
+.table-numeric-value {
+    text-align: center;
+}
