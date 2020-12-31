@@ -55,6 +55,8 @@ CREATE DATABASE fixturemaker;
 GRANT CREATE ON DATABASE fixturemaker TO fixturemaker;
 ```
 
+<p>Finally, you need to download the the Java driver for PostgreSQL (licensed by BSD-2) and put it in the <code>lib</code> folder, which you can do from <a href="https://jdbc.postgresql.org/download.html">here.</a></p>
+
 <p>Now you are ready to run the program. First, move inside the folder by opening this folder in a terminal and typing <code>cd bin</code>. Then, start the server by typing</p>
 
 ```
@@ -64,7 +66,6 @@ java -cp ../lib/*: tournament.Server
 <p>Now, you can open <code>src/html/tournament.html</code> using your browser to use the program. Make sure to close the server (closing the terminal or terminating is sufficient) when you are done.</p>
 
 <h2>Screenshots</h2>
-<br>
 
 <img src=screenshots/create.png alt="Tournament creation screen" width=480><br>
 <img src=screenshots/tournament.png alt="Tournament screen" width=480>
