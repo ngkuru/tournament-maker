@@ -19,7 +19,7 @@ sudo apt install default-jre
 <p>This program uses PostgreSQL for the database which you need to have installed. To install, type<p>
 
 ```
-apt-get install postgresql-12 
+sudo apt install postgresql-12 
 ```
 
 <p>Moreover, the Java server connects to Postgres through a role with username and password <em>java</em>, and you will need to create this role. First, open a terminal and connect to Postgres with the superuser by typing</p>
