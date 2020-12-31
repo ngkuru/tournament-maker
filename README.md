@@ -62,3 +62,9 @@ java -cp ../lib/*: tournament.Server
 ```
 
 <p>Now, you can open <code>src/html/tournament.html</code> using your browser to use the program. Make sure to close the server (closing the terminal or terminating is sufficient) when you are done.</p>
+
+<h2>Screenshots</h2>
+<br>
+
+<img src=screenshots/create.png alt="Tournament creation screen" width=480><br>
+<img src=screenshots/tournament.png alt="Tournament screen" width=480>
