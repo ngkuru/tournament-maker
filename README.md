@@ -41,8 +41,6 @@ postgres#=
 CREATE USER fixturemaker WITH PASSWORD 'java';
 ```
 
-<p><em>Note: You can use the program with a different username/password combination by changing the file <code>src/tournament/DatabaseConnection.java</code>, and recompiling the file.</em></p>
-
 <p>You will also need to create a main database for <code>fixturemaker</code> to log in to. To do that, type</p>
 
 ```
@@ -55,7 +53,7 @@ CREATE DATABASE fixturemaker;
 GRANT CREATE ON DATABASE fixturemaker TO fixturemaker;
 ```
 
-<p>Finally, you need to download the the Java driver for PostgreSQL (licensed by BSD-2) and put it in the <code>lib</code> folder, which you can do from <a href="https://jdbc.postgresql.org/download.html">here.</a></p>
+<p>Finally, you need to download the the Java driver for PostgreSQL (licensed by BSD-2) and put it in the <code>lib</code> folder (create the folder if necessary), which you can do from <a href="https://jdbc.postgresql.org/download.html">here.</a></p>
 
 <p>Now you are ready to run the program. First, move inside the folder by opening this folder in a terminal and typing <code>cd bin</code>. Then, start the server by typing</p>
 
