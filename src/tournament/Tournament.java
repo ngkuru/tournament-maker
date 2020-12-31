@@ -363,15 +363,5 @@ public class Tournament {
         final UpdateClause update = new UpdateClause(tableName, updateColumns, updateValues);
         database.update(update, where);
     }
-
-    public static void main(String[] args) throws SQLException {
-        Tournament t = new Tournament();
-        t.create("tname", List.of("a", "b", "c", "d"));
-        System.out.println(t.getTable("tname"));
-        t.enterScore("tname", "Round 1", 1, 4, 1);
-//        t.removeScoreIfExists("tname", "Round 1", 1);
-        System.out.println(t.getTable("tname"));
-        System.out.println(t.getRoundNames("tname"));
-        System.out.println(t.getMatchesByRound("tname", "Round 1"));
-    }
+    
 }
